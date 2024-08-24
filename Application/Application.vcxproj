@@ -74,25 +74,25 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(SolutionDir)Resources\SDL2-2.30.6\include;C:\Users\Rodrigo\source\repos\ProjectStarter\Resources\SDL2_image-2.8.2\include;C:\Users\Rodrigo\source\repos\ProjectStarter\Resources\SDL2_mixer-2.8.0\include;C:\Users\Rodrigo\source\repos\ProjectStarter\Resources\SDL2_net-2.2.0\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)Resources\SDL2-2.30.6\include;$(SolutionDir)Resources\SDL2_image-2.8.2\include;$(SolutionDir)Resources\SDL2_mixer-2.8.0\include;$(SolutionDir)Resources\SDL2_net-2.2.0\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)Resources\SDL2-2.30.6\lib\$(Platform);$(SolutionDir)Resources\SDL2_image-2.8.2\lib\$(Platform);$(SolutionDir)Resources\SDL2_mixer-2.8.0\lib\$(Platform);$(SolutionDir)Resources\SDL2_net-2.2.0\lib\$(Platform);$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)Build\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)Build\Intermediate\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>$(SolutionDir)Resources\SDL2-2.30.6\include;C:\Users\Rodrigo\source\repos\ProjectStarter\Resources\SDL2_image-2.8.2\include;C:\Users\Rodrigo\source\repos\ProjectStarter\Resources\SDL2_mixer-2.8.0\include;C:\Users\Rodrigo\source\repos\ProjectStarter\Resources\SDL2_net-2.2.0\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)Resources\SDL2-2.30.6\include;$(SolutionDir)Resources\SDL2_image-2.8.2\include;$(SolutionDir)Resources\SDL2_mixer-2.8.0\include;$(SolutionDir)Resources\SDL2_net-2.2.0\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)Resources\SDL2-2.30.6\lib\$(Platform);$(SolutionDir)Resources\SDL2_image-2.8.2\lib\$(Platform);$(SolutionDir)Resources\SDL2_mixer-2.8.0\lib\$(Platform);$(SolutionDir)Resources\SDL2_net-2.2.0\lib\$(Platform);$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)Build\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)Build\Intermediate\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(SolutionDir)Resources\SDL2-2.30.6\include;C:\Users\Rodrigo\source\repos\ProjectStarter\Resources\SDL2_image-2.8.2\include;C:\Users\Rodrigo\source\repos\ProjectStarter\Resources\SDL2_mixer-2.8.0\include;C:\Users\Rodrigo\source\repos\ProjectStarter\Resources\SDL2_net-2.2.0\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <IncludePath>$(SolutionDir)Resources\SDL2-2.30.6\include;$(SolutionDir)Resources\SDL2_image-2.8.2\include;$(SolutionDir)Resources\SDL2_mixer-2.8.0\include;$(SolutionDir)Resources\SDL2_net-2.2.0\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
     <LibraryPath>$(SolutionDir)Resources\SDL2-2.30.6\lib\$(Platform);$(SolutionDir)Resources\SDL2_image-2.8.2\lib\$(Platform);$(SolutionDir)Resources\SDL2_mixer-2.8.0\lib\$(Platform);$(SolutionDir)Resources\SDL2_net-2.2.0\lib\$(Platform);$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)Build\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)Build\Intermediate\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>$(SolutionDir)Resources\SDL2-2.30.6\include;C:\Users\Rodrigo\source\repos\ProjectStarter\Resources\SDL2_image-2.8.2\include;C:\Users\Rodrigo\source\repos\ProjectStarter\Resources\SDL2_mixer-2.8.0\include;C:\Users\Rodrigo\source\repos\ProjectStarter\Resources\SDL2_net-2.2.0\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <IncludePath>$(SolutionDir)Resources\SDL2-2.30.6\include;$(SolutionDir)Resources\SDL2_image-2.8.2\include;$(SolutionDir)Resources\SDL2_mixer-2.8.0\include;$(SolutionDir)Resources\SDL2_net-2.2.0\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
     <LibraryPath>$(SolutionDir)Resources\SDL2-2.30.6\lib\$(Platform);$(SolutionDir)Resources\SDL2_image-2.8.2\lib\$(Platform);$(SolutionDir)Resources\SDL2_mixer-2.8.0\lib\$(Platform);$(SolutionDir)Resources\SDL2_net-2.2.0\lib\$(Platform);$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)Build\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)Build\Intermediate\$(Configuration)\</IntDir>
