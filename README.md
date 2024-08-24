@@ -1,3 +1,3 @@
-# c-sdl-vs-starter
+# c-sdl-starter
 
-A starter project for SDL2, C and Visual Studio 2022.
+A starter project for programming with SDL2, C and Visual Studio 2022.
