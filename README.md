@@ -17,6 +17,7 @@ A starter project for programming with SDL2 and C on Visual Studio 2022.
 
 ## Screenshot
 
+![Screenshot 2024-08-24 210825](https://github.com/user-attachments/assets/7597acbe-52b5-4490-84d3-1b2c7c4962c8)
 
 ## Environment
 
