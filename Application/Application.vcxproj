@@ -110,6 +110,7 @@ copy $(SolutionDir)Resources\Textures $(TargetDir)
 copy $(SolutionDir)Resources\Libraries\SDL2_image-2.8.2\lib\$(Platform)\*.dll $(TargetDir)
 copy $(SolutionDir)Resources\Libraries\SDL2_mixer-2.8.0\lib\$(Platform)\*.dll $(TargetDir)
 copy $(SolutionDir)Resources\Libraries\SDL2_net-2.2.0\lib\$(Platform)\*.dll $(TargetDir)
+copy $(SolutionDir)Resources\Textures $(TargetDir)
 
 </Command>
       <Message>Copy the required SDL2 DLLs to the target build directory</Message>
