@@ -4,9 +4,10 @@ A starter project for programming with SDL2 and C on Visual Studio 2022.
 
 ## Project Details
 
-- Contains required SDL dependencies 
+- SDL2 dependencies are bundled.
 - Configured with relative solution paths.
 - A post-build event automatically copies the required resources (DLLs and Textures) to the target build folder.
+- Build targets Debug/Release for x64 platform.
 
 ## Included Dependencies
 
