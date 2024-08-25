@@ -276,7 +276,7 @@ unsigned long Load_Texture(char* Path)
 
     if (Resource.Slot >= MAX_RESOURCE_SLOTS)
     {
-        printf("Max resource slots exceeded. Actual: %lu Max: %lu\n", Resource.Slot, MAX_RESOURCE_SLOTS);
+        printf("Max resource slots exceeded. Actual: %lu Max: %d\n", Resource.Slot, MAX_RESOURCE_SLOTS);
         exit(EXIT_FAILURE);
     }
 
