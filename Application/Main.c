@@ -326,12 +326,12 @@ void Free_Resources(void)
 
 ///////////////////////////////////////////////////////////////////////////////
 
-void Draw_Texture_At(unsigned long Texture, int X, int Y, int Width, int Height)
+void Draw_Texture_At(unsigned long Slot, int X, int Y, int Width, int Height)
 {
-    assert(Texture >= 0 && Texture < MAX_RESOURCE_SLOTS);
+    assert(Slot >= 0 && Slot < MAX_RESOURCE_SLOTS);
 
     SDL_Rect DestRect = { X, Y, Width, Height };
-    SDL_RenderCopy(App.Renderer, Resource.Textures[Texture], NULL, &DestRect);
+    SDL_RenderCopy(App.Renderer, Resource.Textures[Slot], NULL, &DestRect);
 }
 
 ///////////////////////////////////////////////////////////////////////////////
