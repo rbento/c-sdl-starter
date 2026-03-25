@@ -1,6 +1,6 @@
 # c-sdl-starter
 
-A starter project for programming with SDL2 and C on Visual Studio 2022.
+A starter project for programming with SDL2 and C on Visual Studio 2026.
 
 ## Project Details
 
@@ -22,8 +22,8 @@ A starter project for programming with SDL2 and C on Visual Studio 2022.
 
 ## Environment
 
-#### Microsoft Visual Studio Community 2022
-Version 17.11.1
+#### Microsoft Visual Studio Community 2026
+Version 18.4.2
 
-#### Microsoft Windows 11 Home
-Version	10.0.22631 Build 22631
+#### Microsoft Windows 11 Pro 
+Version 25H2
